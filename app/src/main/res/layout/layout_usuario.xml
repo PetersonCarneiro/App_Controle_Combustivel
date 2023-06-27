@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_usuario"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/textViewNome"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/editTextNome"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text|textPersonName|textCapWords"
+        app:layout_constraintStart_toStartOf="@+id/textViewNome"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNome" />
+
+    <TextView
+        android:id="@+id/editTextTipoVeiculo"
+        android:layout_width="90dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text|textPersonName|textCapWords"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextNome"
+        app:layout_constraintStart_toEndOf="@+id/editTextNome" />
+
+    <TextView
+        android:id="@+id/textViewTipoVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tipo_veiculo"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTipoVeiculo"
+        app:layout_constraintStart_toEndOf="@+id/editTextNome" />
+
+
+    <TextView
+        android:id="@+id/textViewCombutivel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewCombustivel"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextCombustivel"
+        app:layout_constraintStart_toStartOf="@+id/editTextCombustivel" />
+
+
+    <TextView
+        android:id="@+id/editTextCombustivel"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text|textPersonName|textCapWords"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTipoVeiculo"
+        app:layout_constraintStart_toEndOf="@+id/editTextTipoVeiculo" />
+
+    <TextView
+        android:id="@+id/textViewPrecoCombustive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewPrecoCombustivel"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextprecoCombustivel"
+        app:layout_constraintStart_toStartOf="@+id/editTextprecoCombustivel" />
+
+    <TextView
+        android:id="@+id/editTextprecoCombustivel"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text|textPersonName|textCapWords"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextKmLitro"
+        app:layout_constraintStart_toEndOf="@+id/editTextKmLitro" />
+
+    <TextView
+        android:id="@+id/textViewKmLitro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/km_litro"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/editTextNome"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNome" />
+
+    <TextView
+        android:id="@+id/editTextKmLitro"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text|textPersonName|textCapWords"
+        app:layout_constraintStart_toStartOf="@+id/textViewKmLitro"
+        app:layout_constraintTop_toBottomOf="@+id/textViewKmLitro" />
+
+    <TextView
+        android:id="@+id/textViewDistancia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/distancia"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextDistancia"
+        app:layout_constraintStart_toEndOf="@+id/editTextDistancia"
+        app:layout_constraintStart_toStartOf="@+id/editTextDistancia" />
+
+    <TextView
+        android:id="@+id/editTextDistancia"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text|textPersonName|textCapWords"
+        app:layout_constraintStart_toEndOf="@+id/editTextprecoCombustivel"
+        app:layout_constraintTop_toTopOf="@+id/editTextprecoCombustivel" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

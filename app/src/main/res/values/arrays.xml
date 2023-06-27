@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nomes">
+        <item>@string/peterson</item>
+        <item>@string/joao</item>
+        <item>@string/maria</item>
+        <item>@string/felipe</item>
+        <item>@string/edgar</item>
+        <item>@string/jamile</item>
+        <item>@string/bruno</item>
+        <item>@string/carla</item>
+        <item>@string/vitor</item>
+        <item>@string/Alexandra</item>
+    </string-array>
+
+    <integer-array name="tipo_veiculo">//possui 5
+        <item>1</item>
+        <item>0</item>
+        <item>4</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+        <item>4</item>
+        <item>4</item>
+    </integer-array>
+
+    <integer-array name="tipo_combustivel">//possui 3
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    
+    <string-array name="preco_combustivel">
+        <item>5.18</item>
+        <item>5.25</item>
+        <item>5.55</item>
+        <item>5.29</item>
+        <item>5.33</item>
+        <item>5.48</item>
+        <item>5.78</item>
+        <item>5.63</item>
+        <item>5.29</item>
+        <item>5.32</item>
+    </string-array>
+
+    <string-array name="distancia">
+        <item>200.3</item>
+        <item>225</item>
+        <item>555</item>
+        <item>329</item>
+        <item>533</item>
+        <item>948</item>
+        <item>778</item>
+        <item>663</item>
+        <item>329</item>
+        <item>132</item>
+    </string-array>
+
+    <string-array name="km_litros">
+        <item>10.18</item>
+        <item>8.25</item>
+        <item>6.55</item>
+        <item>7.29</item>
+        <item>12.33</item>
+        <item>3.48</item>
+        <item>15.78</item>
+        <item>5.63</item>
+        <item>9.29</item>
+        <item>7.32</item>
+    </string-array>
+
+
+    <integer-array name="tipo_marca">//possui 10
+        <item>1</item>
+        <item>6</item>
+        <item>4</item>
+        <item>5</item>
+        <item>5</item>
+        <item>9</item>
+        <item>2</item>
+        <item>7</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+
+</resources>

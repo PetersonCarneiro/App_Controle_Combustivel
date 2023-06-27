@@ -1,0 +1,55 @@
+<resources>
+
+    <string name="nome">Nome</string>
+    <string name="inserir_dados">Insira os Dados</string>
+    <string name="veiculo">Veiculo</string>
+    <string name="tipo_veiculo1">Tipo de Veiculo</string>
+    <string name="tipo_de_combustivel">Tipo de Combustivel</string>
+    <string name="gasolina1">Gasolina</string>
+    <string name="alcool1">Alcool</string>
+    <string name="flex">Flex</string>
+    <string name="diesel1">Diesel</string>
+    <string name="carro1">carro</string>
+    <string name="moto1">Moto</string>
+    <string name="nenhuma_op_selecionada">nenhuma opção selecionada</string>
+    <string name="foram_selecionadas">Foram selecionadas</string>
+    <string name="carro_selecionado">Carro selecionado</string>
+    <string name="moto_selecionada">Moto selecionada</string>
+    <string name="salvar">Salvar</string>
+    <string name="selecione_um_tipo_de_veiculo">Selecione um tipo de veiculo!</string>
+    <string name="fiat">Fiat</string>
+    <string name="chevrolet">Chevrolet</string>
+
+    <string name="app_name">Controle de Combustivel - Entraga 2</string>
+    <string name="usuario">Usuario\"</string>
+    <string name="foi_selecionado">\"\nfoi selecionado</string>
+    <string name="textViewNome">Nome</string>
+    <string name="tipo_veiculo">Tipo Veiculo</string>
+    <string name="textViewCombustivel">Combustivel</string>
+    <string name="textViewPrecoCombustivel">Preço Combustivel</string>
+    <string name="km_litro">Km/Litro</string>
+    <string name="distancia">Distância</string>
+
+
+    <string name="peterson">Peterson</string>
+    <string name="joao">João</string>
+    <string name="maria">Maria</string>
+    <string name="felipe">Felipe</string>
+    <string name="carla">Carla</string>
+    <string name="edgar">Edgar</string>
+    <string name="jamile">Jamile</string>
+    <string name="bruno">Bruno</string>
+    <string name="vitor">Vitor</string>
+    <string name="Alexandra">Alexandra</string>
+    <string name="gasolina">Gasolina</string>
+    <string name="alcool">Alcool</string>
+    <string name="diesel">Diesel</string>
+    <string name="carro">Carro</string>
+    <string name="moto">Moto</string>
+    <string name="van">Van</string>
+    <string name="onibus">Onibus</string>
+    <string name="caminh_o">Caminhão</string>
+    <string name="sobre">Sobre</string>
+    <string name="sobre_texto" />
+    <string name="btSobre">Sobre</string>
+</resources>
